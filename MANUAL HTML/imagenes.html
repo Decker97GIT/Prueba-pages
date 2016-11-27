@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="cssdefiniciondeparrafos.css">
+		<meta charset="UTF-8">
+		<title>IMAGENES</title>
+	</head>
+
+<body>
+<header>
+<h1><u>IMAGENES</u></h1>
+<h1><a href="index.html"><IMG SRC="casa.jpg"alt="VOLVER A INICIO" width=100 height=100></a></h1>
+</header>
+<p> Las imagenes son un elemento esencial para diseñar paginas atractivas. No obstante, unn excesivo numero de imagenes en una pagina pueden hacer realentizar el proceso de visualizacion (las imagenes son las partes de las paginas que mas espacio ocupan, por lo que su transferencia requiere mas tiempo que la del texto). Es importante conseguir compromiso entre una pagina atractiva (lo que lleva a incluir imagenes) y una pagina que puede cargarse en un tiempo razonable.
+
+<p> Para definir enlaces hipertexto se utiliza la marca < a > de la siguiente manera:
+
+<br>
+<h3><u> PRINCIPALES FORMATOS EN INTERNET</u></h3>
+<p> Existen una gran cantidad de formatos gráficos en el mundo de los ordenadores, cada uno de ellos con sus ventajas e inconvenientes. Sin embargo, a la hora de publicar en Internet, solamente debemos tener en cuenta dos formatos muy específicos: el GIF y el JPEG. Su elección no es en absoluto un capricho, además de la alta resolución que consiguen, se trata como veremos, de dos formatos que comprimen el tamaño de las imágenes, por lo que éstas pueden transmitirse más rápidamente por Internet.
+<h4> Formato GIF </h4>
+<p>Las siglas GIF provienen del inglés Graphics Interchange Format o formato de intercambio de gráficos. Est formato fue desarrollado por CompuServe para proporcionar un mecanismo de transmisión de archivos de imágenes mediante líneas telefónicas. Este mecanismo consiste en comprimir las imágenes para una transmisión más rápida en un medio de baja capacidad como son los hilos telefónicos.
+<p> Las imágenes en formato GIF están limitadas a 256 colores simultáneos.<br>
+Una propiedad interesante del formato GIF es la de poder seleccionar un color "transparente". Así, cuando la imagen en cuestión es mostrada en un visualizador, la zona de la imagen con el color transparente toma el color del fondo del documento.
+Otra propiedad interesante del formato GIF, es la poder crear gráficos animados, el formato de este tipo de imágenes se le denomina GIF 89.<br>
+Los archivos de imágenes en este formato tienen asociados la extensión .gif.
+<h4> Formato JPEG</h4>
+<p>JPEG son las iniciales de Joint Photographic Expert Group (Grupo de Expertos Fotográficos Reunidos). Al igual que el formato GIF, comprime las imágenes para una transmisión más rápida, aunque difiere en el algoritmo de compresión.<br>Mientras que con el formato GIF la comprensión de un archivo de imágenes viene determinada, JPEG nos permite especificar la relación de compresión deseada, por lo que podemos variar el tamaño del archivo. Naturalmente, a mayor relación de compresión, menor tamaño y peor calidad en la imagen final. Disminuyendo la compresión obtenemos imágenes de mayor calidad pero también de mayor tamaño
+<p> No debemos obsesionarnos con la calidad de las imágenes. Hay que tener presente que Internet es en ocasiones un medio de transmisión bastante lento, por lo que a veces es preferible perder algo de calidad en las imágenes antes de aburrir al visitante con nuestros documentos.
+<p>Los archivos de imágenes en este formato tienen asociado la extensión .jpg.
+<br>
+<h3><u>INTRODUCIR IMAGENES</u></h3>
+<p> La etiqueta que se utiliza para la inclusión de imágenes en una página Web es la siguiente: 
+<p> &lt;IMG SRC="imagenjpg"></ IMG&gt;<br>
+donde imagen.jpg es un archivo de imagen
+<h4> Tamaño </h4>
+<p> Si no especificamos nada más, las imágenes aparecerán en el navegador con el tamaño que tienen originalmente.<br>
+Para modificar el tamaño de las imágenes se utilizan los siguientes modificadores en la etiqueta < IMG >:
+<p> <ul>
+		<li> <b>WIDTH</b>: especifica la anchura en pixels de la imagen.
+		<li> <b>HEIGTH</b>: especifica el número de pixels que tendrá de alto la imagen.
+	</ul>
+<br>
+<h4> Escalado </h4>
+<p>Con el uso de loa modificadores HEIGHT y WIDTH podemos ampliar, y reducir las imágenes sin deformarlas, es decir, escalarlas. Una manera cómoda de hacerlo es solamente especificar una de las dos dimensiones, se asume que la reducción o la ampliación es proporcional a la otra.
+<br>
+<h4> Bordes </h4>
+Mediante el modificador BORDER se puede añadir bordes a nuestras imágenes.
+<br>
+<h4> Alineacion del texto con imagenes </h4>
+<p>La alineación del texto con las imágenes se realiza mediante el modificador ALIGN. Los valores que este modificador puede tomar son: TOP, TEXTOP, CENTER, ABSCENTER, MIDDLE, ABSMIDDLE, BOTTOM, LEFT, y RIGTH.<br> 
+Además podemos especificar la distancia que queremos establecer entre el gráfico y el texto. Si este parámetro no se establece, el texto es situado justo a continuación de la imagen. Para introducir espacios horizontales y verticales a continuación de la imagen se utilizan los modificadores VSPACE y HSPACE.
+<br>
+<h4> Uso de imagenes como enlaces </h4>
+<p>Para utilizar una imagen como enlace a otra parte de la página o a otra página, simplemente hay que introducirlas dentro de la etiqueta < A HREF> de la siguiente manera:
+<p>&lt;a HREF="enlace"> < IMG SRC="imagen"> </ a&gt;<br>
+<h4> Imagenes como fondo de documento </h4>
+<p>Un efecto muy utilizado es el uso de imágenes como fondo de un documento HTML. La manera de hacerlo es con el atributo BACKGROUND de la marca < BODY >.<br>
+La imagen de fondo en general será más pequeña que el área de documento del navegador. Lo que hace entonces el navegador es repetir, partiendo de la esquina superior izquierda, la imagen que hemos elegido como fondo del documento.
+A la hora de elegir la imagen de fondo, es preciso tener en cuenta que el texto del documento debe ser legible por encima de la imagen, por lo que hay que evitar colocar imágenes con colores demasiado fuertes.
+
+
+</body>
+
+</html>

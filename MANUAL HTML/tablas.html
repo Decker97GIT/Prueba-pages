@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="cssdefiniciondeparrafos.css">
+		<meta charset="UTF-8">
+		<title>IMAGENES</title>
+	</head>
+
+<body>
+<header>
+<h1><u>TABLAS</u></h1>
+<h1><a href="index.html"><IMG SRC="casa.jpg"alt="VOLVER A INICIO" width=100 height=100></a></h1>
+</header>
+<p>Una tabla es una manera muy compacta y clara de mostrar la información. Una tabla en HTML se entiende como un conjunto de filas (fila=horizontal), apiladas una sobre otra. Cada fila contiene a su vez un conjunto de celdas, puestas una al lado de la otra.<br>
+Una tabla se declara usando el comando < TABLE> ... </ TABLE >. Dentro de la tabla, se usa < TR>.. </ TR>para indicar una fila y dentro de una fila, < TD> ... </ TD> para delimitar el contenido de una celda. El elemento de cierre de fila y de celda es optativo.<br>
+El texto incluido dentro de cada celda puede ser formateado con cualquiera de las etiqueta vistas anteriormente<br>
+Todos estos comandos aceptan numerosos modificadores. Se pueden, entre otras cosas, unir celdas, especificar la alineación del contenido de la celda, y mucho más.
+Para entender mejor el comando < TABLE> ... </ TABLE >, está disponible una muy amplia gama de ejemplos.<br>
+<p>Ejemplo de tabla:
+<p> Aquí se muestra una tabla muy simple:
+<p><TABLE border="1">
+	<TR>
+		<TD>Celda Al </TD>
+		<TD>Celda B 1 </TD>
+		<TD>Celda C 1 </TD>
+	</TR> 
+	<TR>
+		<TD>Celda A2</TD>
+		<TD>Celda B2</TD>
+		<TD>Celda C2</TD>
+	</TR>
+	<TR>
+		<TD>Celda A3</TD>
+		<TD>Celda B3</TD>
+		<TD>Celda C3</TD>
+	</TR>
+</TABLE>
+
+<p> Y aquí otro ejemplo donde nos quedara claro lo que son las columnas, las filas y las celdas:
+<p> <IMG SRC="table.gif"></IMG>
+<br>
+
+<h3><u> TITULO DE LA TABLA</u></h3>
+<p>Es conveniente que las tablas tengan un título que las identifique y aclare su contenido. Aunque ese título puede ser contenido colocando texto formateado antes de la tabla, HTML dispone de la etiqueta < CAPTION > para darle nombre a la tabla, de la siguiente forma:
+<p>&lt;table&gt;<br>
+&nbsp;&nbsp;&lt;caption>NombredelaTabla</ caption&gt;<br>
+<p>&nbsp;&nbsp;........<br>
+&lt;/table&gt;<br>
+<p>Esta etiqueta tiene la ventaja que el texto formateado se coloca automáticamente en el centro de la anchura de la tabla.
+
+
+<h3><u> BORDES DE LA TABLA</u></h3>
+<p>Para colocar bordes a una tabla en HTML se utiliza el modificador BORDER dentro de la etiqueta < TABLE >. La sintaxis es:
+<p>&lt;table border="anchura"&gt;<br>
+<p>&nbsp;&nbsp;........<br>
+&lt;/table&gt;<br>
+
+<h3><u> TAMAÑO DE LA TABLA</u></h3>
+<P>Por defecto el tamaño de la tabla viene dado por el texto o los gráficos que contiene. Sin embargo, es posible que en ocasiones queramos cambiar la anchura de nuestra tabla.<BR>
+La forma de establecer una anchura fija en una tabla es utilizar el modificador WIDTH dentro de la etiqueta < TABLE >. La sintaxis es:
+
+&lt;TABLE WIDTH="anchura"> </ TABLE&gt; <br>
+<p>Aquí anchura puede ser un número que especifique en pixels la anchura absoluta de la tabla, o bien un porcentaje que indique la anchura de la tabla en relación a la anchura del área del documento del navegador.<br>
+A pesar de que podemos especificar la anchura de la tabla, si el texto de las celdas ocupa una anchura mayor, la tabla tomará la anchura mínima para que el texto de las celdas pueda verse íntegramente.
+
+<h4> Celdas de diferentes tamaños </h4>
+<p>Por defecto, todas las celdas que constituyen una tabla en HTML tienen el mismo tamaño. Sin embargo, es posible establecer el tamaños de una determinada celda mediante dos modificadores de la etiqueta < TD >, que son WIDTH y HEIGHT:
+<ul>
+	<li><b>WIDTH</b>: especifica la anchura del texto en una celda concreta. Se puede especificar como valor absoluto o bien como relativo en forma de porcentaje de la anchura de la tabla.
+	<li><b>HEIGHT</b>: establece la altura de una celda individual.
+</ul>
+<p>No es posible usar los modificadores WIDTH y HEIGTH para aplicarlos a toda una fila. La única forma de hacerlo es poniendo en cada celda de la fila los valores correspondientes de WIDTH y HEIGHT.
+<br>
+<h4> Celdas irregulares </h4>
+<p>Podemos desear que una de nuestras celdas ocupe varias filas y/o columnas. La forma de hacerlo es introducir los modificadores COLSPAN y ROWSPAN en la etiqueta < TD >:
+<ul>
+	<li><b>COLSPAN</b>: especifica la altura de una celda en concreta en función de la altura de las celdas adyacentes. Se especifica en número de celdas adyacentes.
+	<li><b>ROWSPAN</b>: especifica la anchura de una concreta en función del celdas que están debajo. Se especifica en número de celdas de debajo.
+</ul>
+<br>
+<h4> Color de cada celda</h4>
+<p>Para especificar el color de cada celda de la tabla se utiliza el modificador BGCOLOR en la etiqueta < TD >. Como formato de colores se acepta el hexadecimal o una cadena de caracteres.
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
